@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {  
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.description {
+  width: 100%;
+  color: white;
+}
+
+
+.fadeIn {
+  opacity: 1;
+}
